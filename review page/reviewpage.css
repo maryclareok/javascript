@@ -1,5 +1,63 @@
-img{
+
+.img_container{
     display: flex;
-    width: 50%;
-    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius:50%;
+    
 }
+.review{
+    margin: auto;
+    position: relative;
+    top: 10vh;
+    width: 40vh;
+    box-shadow: 0 6px 20px rgb(0, 0, 0.19);
+    text-align: center;
+    padding: 18px;
+    
+}
+.title{
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+}
+#author{
+    text-align: center;
+    font-size: 11px;
+    margin: 0.5vh;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+#job{
+    font-size: 9px;
+    color: rgba(32, 163, 199, 0.906);
+    margin: 0.5vh;
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+}
+#info{
+    margin: 1vh;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    
+}
+.random-btn{
+    font-family: 'Open Sans',sans-serif;
+    text-transform: capitalize;
+}
+.button-container{
+    margin: 1vh;
+}
+.underline{
+    margin: -4vh;
+}
+
+  .random-btn:hover,.prev-btn:hover,
+  .next-btn:hover {
+    background: black;
+    color: wheat;
+  }
