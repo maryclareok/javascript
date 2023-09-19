@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+    function myfirstfunction(){
+        document.getElementById("demo2").innerHTML = "paragraph changed.";
+    }
+    </script>
+    
+    <title>wikiHow Fan Page</title>
+</head>
+<body>
+    <h1 id="demo">Welcome to My Page!</h1>
+    <p id="demo1">This is a fan page for wikiHow. Make yourself at home!</p>
+    <h2 id = "demo2">Important Dates</h2>
+    <p>
+        <i>January 15, 2019</i> - wikiHow's Birthday
+    </p>
+    <h2 id  = "demo3">Links</h2>
+    <p>Here is a link to wikiHow: <a href="http://www.wikihow.com">wikiHow</a></p>
+    <h1 id = "demo4">
+        random
+    </h1>
+    <button
+        type = "button" onclick = "myseperatefunction()"> seperate click </button>
+    </button>
+    <button type = "button" onclick = "myfirstfunction()">try it</button>
+
+    <script src="learn1.js">
+    </script>
+    <script>
+        function mybodyfunction(){
+            document.getElementById("demo3").innerHTML = " changed by function in the body";
+        }
+    </script>
+    <script> 
+        document.getElementById("demo1").innerHTML = "My First JavaScript";
+    </script>
+    <button type = "button" onclick = "mybodyfunction()"> click to change </button> </button>
+</body>
+</html>
+
