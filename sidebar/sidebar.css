@@ -1,0 +1,6 @@
+.sidebar{
+    transform: translate(-100%);
+}
+.show-sidebar{
+    transform: translate(0);
+}
