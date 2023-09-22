@@ -13,14 +13,15 @@
     margin: auto;
     position: relative;
     top: 10vh;
-    width: 40vh;
+    width: 30vh;
     box-shadow: 0 6px 20px rgb(0, 0, 0.19);
     text-align: center;
-    padding: 18px;
+    padding: 20px;
     
 }
 .title{
     text-align: center;
+    text-decoration: underline;
     font-family: 'Open Sans',sans-serif;
 }
 #author{
