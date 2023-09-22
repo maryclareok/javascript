@@ -36,6 +36,7 @@
   }
   .btn-container{
     margin-bottom: 6vh;
+    margin: auto;
   }
   .filter-btn:hover {
     background: gold;
@@ -47,12 +48,12 @@
     border-radius: 1vh;
     font-size: 3vh;
     text-transform: capitalize;
-    margin: 0 0.5vh;
+    margin: 0 1vh;
     letter-spacing: 10%;
     color: gold;
     cursor: pointer;
     padding: 0.8vh 1.5vh ;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); */
     transition: all 0.3s linear;
   }
  
