@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+.links{
+    visibility: hidden;
+}
+.show-links{
+    visibility: visible;
+}
+/* .navbar_container{
+} */
+.inputbar{
+    visibility: hidden;
+}
+.active-inputbar{
+    visibility: visible;
+}

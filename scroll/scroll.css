@@ -1,0 +1,122 @@
+ html {
+    scroll-behavior: smooth;
+  }
+  ul {
+    list-style-type: none;
+  }
+a {
+    text-decoration: none;
+  }
+  img:not(.logo) {
+    width: 100%;
+  }
+  .nav-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-toggle {
+    font-size: 1.5rem;
+    color: grey;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+  }
+  .logo {
+    height: 50px;
+  } 
+  .links-container{
+    height: 0;
+    overflow: hidden;
+    transition:  all 0.3s linear;
+  }
+  .show-links {
+    height: 200px;
+  }
+  @media screen and (min-width: 800px) {
+    nav {
+      background: transparent;
+    }
+    .nav-center {
+      width: 90vw;
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-header {
+      padding: 0;
+    }
+    .nav-toggle {
+      display: none;
+    }
+    .links-container {
+      height: auto !important;
+    }
+    .links {
+      display: flex;
+    }
+    .links a {
+      background: transparent;
+      color: white;
+      font-size: 1.1rem;
+      text-transform: capitalize;
+      display: block;
+      margin: 0 1rem;
+      font-weight: bold;
+      padding: 0;
+    }
+    .links a:hover {
+      color: white;
+      
+    }
+  }
+  nav {
+    background: white;
+    padding: 1rem 1.5rem;
+  }
+  .fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: lightslategray;
+  }
+    .fixed-nav.links-container {
+  height: auto !important;
+}
+#about,
+#services,
+#tours {
+  height: 80vh;
+}
+.top-link {
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    width: 2rem;
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    animation: bounce 2s ease-in-out infinite;
+    visibility: hidden;
+    z-index: -100;
+  }
+  .show-link {
+    visibility: visible;
+    z-index: 100;
+  }
+  header {
+    min-height: 100vh;
+    background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
+      url(./hero-bcg.jpeg) center/cover no-repeat;
+  }
+  .banner {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+  }

@@ -1,0 +1,14 @@
+.grocery-container{
+    margin-top: 2rem;
+    visibility: hidden;
+}
+.alert-danger{
+    color: red;
+    background: peachpuff;
+}.alert-sucess{
+    color: green;
+    background: lightgreen;
+}
+.show-container {
+    visibility: visible;
+  }
